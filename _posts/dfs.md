@@ -1,3 +1,14 @@
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      DFS(深度优先搜索)               # 标题 
+subtitle:   算法理解＋实例            #副标题
+date:       2020-03-09              # 时间
+author:     BY whz（转）                    # 作者
+header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    - 算法
+---
 # DFS(深度优先搜索)
 
 
