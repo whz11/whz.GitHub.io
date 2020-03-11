@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      spring data jpa方法命名规则               # 标题 
-subtitle:   No property user found for type 报错解决       #副标题
+title:      Springboot-Mybatis              # 标题 
+subtitle:   无配置文件注解版的思考                      #副标题
 date:       2020-03-11              # 时间
 author:     BY 转载修改                     # 作者
 header-img: img/post-bg-desk.jpg    #这篇文章标题背景图片
