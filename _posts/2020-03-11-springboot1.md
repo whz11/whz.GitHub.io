@@ -1,3 +1,14 @@
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      spring data jpa方法命名规则               # 标题 
+subtitle:   No property user found for type 报错解决       #副标题
+date:       2020-03-11              # 时间
+author:     BY 转载修改                     # 作者
+header-img: img/post-bg-desk.jpg    #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    - springboot
+---
 
 #关于Springboot-Mybatis无配置文件注解版的思考
 
@@ -265,7 +276,7 @@ DAO层设计---mapper---》UserMapper.java  是一个接口类，在springmvc框
 在springboot中，我们甚至不用创建UserMapper.xml文件，可以直接在UserMapper.java里面，添加注解进行dao层操作，然后在启动类里面添加@MapperScan("com.xz.blog.mapper") //包扫描，即可(不过我还是喜欢@mapper在每个mapper文件，感觉@MapperScan容易报错，老是扫描不到)。
 
 UserMapper.java
-```
+```java
 
 @Mapper
 public interface UserMapper {
@@ -308,7 +319,7 @@ public interface UserMapper {
 ```
 UserService.java
 
-```
+```java
 
 @Service
 public class UserService {
@@ -333,7 +344,7 @@ public class UserService {
 }
 ```
 Controller层
-```
+```java
 
 //@RestController
 @Controller
