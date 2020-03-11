@@ -1,4 +1,14 @@
-
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      jekyll              # 标题 
+subtitle:   教程                      #副标题
+date:       2020-03-11              # 时间
+author:     BY 转载修改                     # 作者
+header-img: img/post-bg-desk.jpg    #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    - 博客教程
+---
 
 ![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
 
